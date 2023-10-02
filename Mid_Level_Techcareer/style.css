@@ -1,0 +1,304 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*benim yazdıklarım*/
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    padding: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+}
+
+nav {
+    background-color: #2c3e50;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li a:hover {
+    color: #1abc9c;
+
+}
+
+nav h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    cursor: pointer;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+#banner {
+    background-color: #1abc9c;
+    width: 100%;
+    height: 600px;
+}
+
+header img {
+    box-sizing: border-box;
+    width: 240px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 65px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+}
+
+#portfolio {
+
+    color: #2c3e50;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    height: 900px;
+    font-size: 45px;
+    margin-top: 100px;
+    font-weight: bold;
+
+}
+
+#about {
+    background-color: #1abc9c;
+    width: 100%;
+    height: 600px;
+}
+
+.resim_container img {
+    width: 370px;
+    height: 250px;
+    border-radius: 10px;
+    padding-top: 50px;
+}
+
+
+.resim_container:hover img {
+    opacity: 0.2;
+  
+}
+
+.kutu {
+    text-align: center;
+}
+
+.resim_container {
+    display: inline-block;
+    margin: 10px;
+}
+
+#about {
+    color: white;
+    text-align: center;
+}
+
+#about h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.paragraf_container {
+    text-align: center;
+    display: block;
+
+}
+
+.paragraf {
+    width: 50%;
+    font-size: 22px;
+    padding-top: 40px;
+    line-height: 28px;
+    text-align: center;
+    float: left;
+}
+
+button {
+    background-color: #1abc9c;
+    color: white;
+
+    font-size: 18px;
+    padding: 20px 50px;
+    border-radius: 6px;
+    border: solid;
+    cursor: pointer;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: px;
+
+}
+
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: white;
+}
