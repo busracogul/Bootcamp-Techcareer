@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products-Axios</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="left-content">
+        <table id="veriler">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Unit Price</th>
+                    <th>Stock</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+    </div>
+    <div class="right-content">
+        Seçili olan sayı
+        <select id="SecilenDeger">
+            <option value="50">0-50</option>
+            <option value="100">0-100</option>
+            <option value="150">0-150</option>
+            <option value="200">0-200</option>
+            <option value="250">0-250</option>
+
+        </select>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
